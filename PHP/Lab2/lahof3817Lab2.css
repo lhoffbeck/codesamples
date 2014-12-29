@@ -1,0 +1,63 @@
+/*
+    Document   : lahof3817Lab2.css
+    Created on : Feb 7, 2013, 3:41:41 PM
+    Author     : larshoffbeck
+    Description:
+        Styling for Lab 2.
+*/
+
+/* Styling for the body of the page */
+body{
+   background-color: #E6FFE6; /* a lovely pale green */ 
+}
+
+/* The error class provides styling for error messages.*/
+.error{
+    display:block;/*display in block form*/
+    color: red;/*text color is red*/
+}
+
+/* Styling for caption elements.*/
+caption{
+    color: green;/*text color is green*/
+}
+
+/*Styling for table elements. */
+table{
+    /* Makes all text in the table have the font Trebuchet MS
+    or Arial if not available. Sans serif as generic family.*/ 
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    border-collapse:collapse;/*collapses borders into a single border. */
+
+    /*specifying margin-left and margin-right centers the table. */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for td elements. */
+td{
+    font-size:1em;/*font size of 1em*/
+    border:1px solid #98bf21; /*td has solid, 1px borders in a lovely pear color.*/ 
+}
+
+/* The foot class provides styling for the time/date/copyright footer. */
+.foot{
+    text-align: center;/*center the text*/
+    /*make all text Book Antiqua font, or Palatino if not available.
+    serif as generic family.*/
+    font-family: Book Antiqua, Palatino, serif;
+    font-size: .7em;/*font size of .7em*/
+}
+
+/* Styling for the header. */
+h1{
+    display:block;/*display in block form*/
+    text-align: center;/*center the text*/
+}
+
+/* The info class provides styling for information that needs a bit of emphasis
+on the results page. */
+.info{
+    font-weight: bold;/* bold the text */
+    color: coral; /* text color is coral */
+}

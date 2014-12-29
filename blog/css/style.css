@@ -1,0 +1,116 @@
+    body {
+        background-image: url('../images/brickwall.png');
+        font-family: 'Hans Kendrick 3'; 
+      font-weight: normal; 
+      font-style: normal; 
+    }
+
+    @font-face {
+        font-family: german; /* DSZierschrift */
+        src: url('../fonts/german.ttf');
+    }
+
+    #title{
+      font-size: 150px;
+      font-family: 'JustLetters'; 
+      font-weight: normal; 
+      font-style: normal; 
+      text-align: center;
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
+    }
+
+    #desc{
+      text-align: center;
+      font-size: 30px;
+      margin: none;
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
+    }
+
+    #wrapper{
+      margin:auto;
+      background-color: white;
+      background-color:rgba(178,204,204,0.5); /*rgba(201,241,201,0.5);*/
+      width: 85%;
+    }
+
+    #content{
+      padding: 15px 20px 20px 20px;
+    }
+
+    #content img{
+
+      display:block;
+      margin: 0 auto;
+      padding: 10px;
+      width:85%;
+    }
+
+    .postTitle{
+
+      font-size: 35px;
+    }
+
+    footer{
+      margin-top: 50px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+
+    h1{
+      font-size: 5.0em;
+      text-align: center;
+      font-family: 'UnifrakturCook', cursive;
+    }
+
+    a, a:visited, a:hover, a:active {
+      text-decoration: none;
+      color: #000000;
+    }
+
+
+    nav.main {
+      height: 100px;
+      width: 100%;
+      z-index: 999;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+    }
+
+    nav.main ul {
+      max-width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+      zoom: 1;
+      display: block;
+      border-top: 1px solid #000000;
+      text-align: center;
+      padding: 0px 0px 0px 0px;
+    }
+
+    nav.main li {
+       display:inline-block;
+       *display:inline;
+       *zoom:1;
+       margin-right: 20px;
+      padding-bottom: 0px;
+    }
+
+    nav.main a {
+      display: block;
+      text-transform: uppercase;
+      padding-top: 28px;
+      padding-bottom: 0px;
+      border-top: 2px solid transparent;
+       -o-transition:.5s;
+       -ms-transition:.5s;
+       -moz-transition:.5s;
+       -webkit-transition:.5s;
+    }
+
+    nav.main a:hover {
+      border-top: 2px solid #000000;
+    }

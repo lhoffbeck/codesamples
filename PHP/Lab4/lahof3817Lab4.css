@@ -1,0 +1,91 @@
+/*
+    Document   : lahof3817Lab3.css
+    Created on : Apr 12, 2013, 3:41:41 PM
+    Author     : larshoffbeck
+    Description:
+        Styling for Lab 4.
+*/
+
+
+/* Styling for the body of the page */
+body{
+    background-color: #E6FFE6; /* a lovely pale green */
+}
+
+/*Styling for elements that need to be centered. */
+.centered{
+    text-align: center;/*center the text*/
+}
+
+/* The error class provides styling for error messages.*/
+.error{
+    color: red;/*text color is red*/
+}
+
+/* The foot class provides styling for the time/date/copyright footer. */
+.nav{
+    text-align: center;/*center the text*/
+
+    /*make all text Book Antiqua font, or Palatino if not available.
+    serif as generic family.*/
+    font-family: Book Antiqua, Palatino, serif;
+    font-size: .7em;/*font size of .7em*/
+
+}
+
+/* Styling for li elements in the footer. */
+.nav li {
+    display: inline; /* display elements in line */
+    text-align: center; /*center the li's'*/
+}
+
+/*Styling for h2 elements */
+h2 {
+    color: green;/*text color is green*/
+    text-align: center;/*center the text*/
+}
+
+/* Styling for the header. */
+.head{
+    display:block;/*display in block form*/
+    text-align: center;/*center the text*/
+}
+
+/* The info class provides styling for information that needs a bit of emphasis
+on the results page. */
+.info{
+    color: coral; /* text color is coral */
+}
+
+
+/*styling for success messages */
+.success{
+    color: green;/*text color is green*/
+    text-align: center;/*center the text*/
+}
+
+/*Styling for table elements. */
+table{
+    display: block;
+
+    /* Makes all text in the table have the font Trebuchet MS
+    or Arial if not available. Sans serif as generic family.*/ 
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    border-collapse:collapse;/*collapses borders into a single border. */
+
+    position: relative;
+    top:15%;
+}
+
+/* Styling for td elements. */
+td,th{
+    font-size:1em;/*font size of 1em*/
+    vertical-align: middle; /* center checkbox vertically */
+    width: auto;
+}
+
+/* styling for textarea elements */
+textarea {
+    /* don't allow the textarea to be resized.*/
+    resize: none;
+}

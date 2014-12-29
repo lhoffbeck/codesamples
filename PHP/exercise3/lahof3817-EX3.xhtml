@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+       *************************************
+       * Programmer: 		Lars Hoffbeck
+       * Class ID: 		lahof3817
+       * Exercise 3: 		Using forms, POST
+       * CIS 2800: 		Internet Programming
+       * Instructor:		Dr. Miller
+       * Spring 2013
+       * Due date: 		02/14/13
+       * Date completed: 	02/12/13
+       *************************************
+       * Program Explanation:
+       *
+       * The program creates a web form, and
+       * submits form data to a php page that 
+       * performs some manipulations on it.
+       **************************************
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Exercise 3 - Form Input</title>
+        <link rel="stylesheet" type="text/css" href="lahof3817-EX3.css"/>
+    </head>
+    <body>
+        <h1>Name Verification</h1>
+
+        <form action="lahof3817-EX3.php" method="post">
+            <table>
+                <tr> 
+                    <td>
+                        First Name: <input type="text" name="fName"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name: <input type="text" name="lName"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="Submit" value="Submit Information"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>               
+                        <input type="reset" value="Clear Form"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
